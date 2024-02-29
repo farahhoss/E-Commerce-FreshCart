@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-FreshCart/static/css/main.5f1e9e92.css",
+    "main.js": "/E-Commerce-FreshCart/static/js/main.c2e9a989.js",
+    "static/js/592.7ae711f1.chunk.js": "/E-Commerce-FreshCart/static/js/592.7ae711f1.chunk.js",
+    "static/media/fa-solid-900.ttf": "/E-Commerce-FreshCart/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/fa-brands-400.ttf": "/E-Commerce-FreshCart/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/valu_v2.svg": "/E-Commerce-FreshCart/static/media/valu_v2.5c5caa11044cda0ee11afa64d3ac083f.svg",
+    "static/media/fa-solid-900.woff2": "/E-Commerce-FreshCart/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/E-Commerce-FreshCart/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/error.svg": "/E-Commerce-FreshCart/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/fa-regular-400.ttf": "/E-Commerce-FreshCart/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/1e2ea023-2cc9-45aa-bcfc-338e41c13b8f.avif": "/E-Commerce-FreshCart/static/media/1e2ea023-2cc9-45aa-bcfc-338e41c13b8f.ac409b79b29a9ca80f04.avif",
+    "static/media/30033578-2c2c-4dba-8d4f-fe0d1f9642d9.avif": "/E-Commerce-FreshCart/static/media/30033578-2c2c-4dba-8d4f-fe0d1f9642d9.6862e0bbf4fd9abcf056.avif",
+    "static/media/a9050047-dcaa-4cf7-ba07-7e2de6d5bb98.avif": "/E-Commerce-FreshCart/static/media/a9050047-dcaa-4cf7-ba07-7e2de6d5bb98.1c91855d0ac1b86e661c.avif",
+    "static/media/84b8f2b7-1f54-4ecd-a4bb-507dddfcd8f3.avif": "/E-Commerce-FreshCart/static/media/84b8f2b7-1f54-4ecd-a4bb-507dddfcd8f3.b93be5596fc5071377a3.avif",
+    "static/media/a4f4b458-c1f1-424c-aa1f-fd5bd2a8d41f.avif": "/E-Commerce-FreshCart/static/media/a4f4b458-c1f1-424c-aa1f-fd5bd2a8d41f.b10b388257b8792f0604.avif",
+    "static/media/54c32f86-795b-48f3-be68-611a1ee531c7.avif": "/E-Commerce-FreshCart/static/media/54c32f86-795b-48f3-be68-611a1ee531c7.42c1b480d8e71c32e366.avif",
+    "static/media/1cc4c0fc-9ba0-412f-a492-24e26bd58477.avif": "/E-Commerce-FreshCart/static/media/1cc4c0fc-9ba0-412f-a492-24e26bd58477.dbb61de4750a5d66463a.avif",
+    "static/media/fa-regular-400.woff2": "/E-Commerce-FreshCart/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/google-play.svg": "/E-Commerce-FreshCart/static/media/google-play.4cf9f5b4e46adc5f504afb9c6ff0f156.svg",
+    "static/media/fa-v4compatibility.ttf": "/E-Commerce-FreshCart/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/freshcart-logo.svg": "/E-Commerce-FreshCart/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.woff2": "/E-Commerce-FreshCart/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "static/media/cod-en.svg": "/E-Commerce-FreshCart/static/media/cod-en.abfc964830e15c5e9f1fd437949ca93a.svg",
+    "static/media/slick.svg": "/E-Commerce-FreshCart/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-Commerce-FreshCart/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-Commerce-FreshCart/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/card-mastercard.svg": "/E-Commerce-FreshCart/static/media/card-mastercard.752f7e25179580b3a52ad2685adac322.svg",
+    "static/media/card-amex.svg": "/E-Commerce-FreshCart/static/media/card-amex.2d18bdded90ca527c261253cc5dc2531.svg",
+    "static/media/slick.woff": "/E-Commerce-FreshCart/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/card-visa.svg": "/E-Commerce-FreshCart/static/media/card-visa.0410ad10e0c833cc731196d7e27cd69a.svg",
+    "index.html": "/E-Commerce-FreshCart/index.html",
+    "main.5f1e9e92.css.map": "/E-Commerce-FreshCart/static/css/main.5f1e9e92.css.map",
+    "main.c2e9a989.js.map": "/E-Commerce-FreshCart/static/js/main.c2e9a989.js.map",
+    "592.7ae711f1.chunk.js.map": "/E-Commerce-FreshCart/static/js/592.7ae711f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f1e9e92.css",
+    "static/js/main.c2e9a989.js"
+  ]
+}
