@@ -95,15 +95,22 @@ export default function Cart() {
                       <p className="m-1">{item.product.title}</p>
                     </Link>
                     <p className="text-main m-1 p-0">Price:{item.price}</p>
-                    <button
+                    {/* <button
                       onClick={() => deletProduct(item.product._id)}
-                      className="btn m-0 p-0"
+                      className="btn m-0 p-0 border-0"
                     >
                       {btnLoading ? (
                         <i class="fa-solid fa-trash-can text-main"></i>
                       ) : (
                         <i className="fa fa-spinner fa-spin text-main"> </i>
                       )}
+                      Remove
+                    </button> */}
+                    <button
+                      onClick={() => deletProduct(item.product._id)}
+                      className="btn m-0 p-0 border-0"
+                    >
+                      <i class="fa-solid fa-trash-can text-main"></i>
                       Remove
                     </button>
                   </div>

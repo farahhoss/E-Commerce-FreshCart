@@ -128,6 +128,7 @@ a:hover {
     position: absolute !important;
     top: 0 !important;
     left: 100% !important;
+    transform: translate(-850%, -50%) !important;
 
     /* Add any other mobile-specific styles here */
   }
@@ -137,7 +138,7 @@ a:hover {
     z-index: 1;
   }
   .sign-out-btn {
-    margin-left: 180px;
+    margin-left: 155px;
   }
 }
 

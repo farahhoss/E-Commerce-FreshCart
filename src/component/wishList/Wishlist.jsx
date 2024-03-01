@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-
 import { StoreContext } from "../../Context/StoreContext";
 import Loading from "../Loading/Loading";
 import { toast } from "react-toastify";
@@ -29,8 +28,9 @@ export default function Wishlist() {
 
     console.log(data);
     if (data.status == "success") {
-      toast.success("Product added successfuly");
       setBtnLoading(true);
+      toast.success("Product added successfuly");
+
       setCounter(data.numOfCartItems);
     }
   }
@@ -106,7 +106,7 @@ export default function Wishlist() {
                   </Link>
 
                   <p className="text-main m-1 p-0">Price:{item.price}</p>
-                  <button
+                  {/* <button
                     onClick={() => deletWishListProduct(item._id)}
                     className="btn m-0 p-0"
                   >
@@ -116,9 +116,24 @@ export default function Wishlist() {
                       <i className="fa fa-spinner fa-spin text-main"> </i>
                     )}
                     Remove
+                  </button> */}
+                  <button
+                    onClick={() => deletWishListProduct(item._id)}
+                    className="btn m-0 p-0 border-0"
+                  >
+                    <i class="fa-solid fa-trash-can text-main"></i>
+                    Remove
                   </button>
                 </div>
                 <div className="buttonc">
+                  <button
+                    onClick={() => addProductToCart(item._id)}
+                    className="btn bg-main  w-100 text-white border-0"
+                  >
+                    Add To Cart
+                  </button>
+                </div>
+                {/* <div className="buttonc">
                   <button
                     disabled={!btnLoading}
                     onClick={() => addProductToCart(item._id)}
@@ -130,7 +145,7 @@ export default function Wishlist() {
                       <i className="fa fa-spinner fa-spin"> </i>
                     )}{" "}
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           );

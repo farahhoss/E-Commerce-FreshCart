@@ -3,13 +3,14 @@ import logo from "../../assets/images/freshcart-logo.svg";
 import { NavLink, useHistory } from "react-router-dom";
 import { Link, useNavigate } from "react-router-dom";
 import { StoreContext } from "../../Context/StoreContext";
+import { toast } from "react-toastify";
 export default function Navbar() {
   // const history = useHistory();
   const navigate = useNavigate();
   const handleSignOut = () => {
     // Remove the token from local storage
     localStorage.removeItem("token");
-
+    toast.success(" Logged Out Successfully ");
     // Navigate to the sign-in route
     navigate("/signin");
   };
