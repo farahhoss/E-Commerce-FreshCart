@@ -84,7 +84,7 @@ export default function Wishlist() {
     );
   } else {
     return (
-      <div className="container my-2 bg-main-light text-start p-3 rounded my-5">
+      <div className="container  bg-main-light text-start p-3 rounded my-lg-5">
         <Helmet>
           <meta charSet="utf-8" content="Wishlist" />
           <title>Wishlist</title>

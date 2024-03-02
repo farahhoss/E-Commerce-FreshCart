@@ -93,44 +93,59 @@ export default function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item position-relative border-end  ">
-                <NavLink className="nav-link " to="/profile">
-                  {JSON.parse(localStorage.getItem("userName"))}
-                  <i className="fa-solid fa-user cartIcon mx-2"> </i>
-                </NavLink>
+              <li className="nav-item position-relative border-end   ">
+                <button type="button" class="btn  position-relative border-0 ">
+                  <NavLink className="nav-link " to="/profile">
+                    {JSON.parse(localStorage.getItem("userName"))}
+                    <i className="fa-solid fa-user cartIcon mx-2"> </i>
+                  </NavLink>
+                </button>
               </li>
               <li className="nav-item position-relative border-end  ">
                 <NavLink className="nav-link " to="/cart">
-                  Cart
-                  <i className="fa-solid fa-cart-shopping cartIcon mx-2"></i>
-                  {counter ? (
-                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      {counter}
-                      <span className="visually-hidden">unread messages</span>
-                    </span>
-                  ) : (
-                    ""
-                  )}
+                  <button
+                    type="button"
+                    class="btn  position-relative border-0 "
+                  >
+                    Cart
+                    <i className="fa-solid fa-cart-shopping cartIcon mx-2"></i>
+                    {counter ? (
+                      <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        {counter}
+                        <span className="visually-hidden">unread messages</span>
+                      </span>
+                    ) : (
+                      ""
+                    )}
+                  </button>
                 </NavLink>
               </li>
               <li className="nav-item position-relative  border-end">
                 <NavLink className="nav-link" to="/wishlist">
-                  Wish list
-                  <i className="fa-solid fa-heart cartIcon mx-2"></i>
-                  {wishlistCounter ? (
-                    <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                      {wishlistCounter}
-                      <span className="visually-hidden">unread messages</span>
-                    </span>
-                  ) : (
-                    ""
-                  )}
+                  <button type="button" class="btn  position-relative border-0">
+                    Wish list
+                    <i className="fa-solid fa-heart cartIcon mx-2 "></i>
+                    {wishlistCounter ? (
+                      <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        {wishlistCounter}
+                        <span className="visually-hidden">unread messages</span>
+                      </span>
+                    ) : (
+                      ""
+                    )}
+                  </button>
                 </NavLink>
               </li>
               <li className="nav-item position-relative sign-out-btn">
-                <button className="nav-link" onClick={handleSignOut}>
-                  Sign out
-                </button>
+                <NavLink className="nav-link">
+                  <button
+                    type="button"
+                    class="btn  position-relative border-0"
+                    onClick={handleSignOut}
+                  >
+                    Sign out
+                  </button>
+                </NavLink>
               </li>
             </ul>
           </div>

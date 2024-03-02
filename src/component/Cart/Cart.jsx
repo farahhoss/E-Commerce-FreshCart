@@ -77,7 +77,7 @@ export default function Cart() {
           <title>Cart</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
-        <div className="container my-2 bg-main-light text-start p-3 rounded my-5">
+        <div className="container  bg-main-light text-start p-3 rounded my-lg-5">
           <h2>Shop Cart</h2>
           <p className="text-main">
             Total Cart Price:{data?.data.totalCartPrice}EGY

@@ -114,33 +114,6 @@ a:hover {
   z-index: 44465;
   box-shadow: var(--shadow);
 }
-/* Style for larger screens */
-.badge {
-  position: absolute !important;
-  top: 0 !important;
-  left: 100% !important;
-  transform: translate(-50%, -50%) !important;
-}
-
-/* Style for smaller screens (e.g., max-width: 767px) */
-@media (max-width: 767px) {
-  .badge {
-    position: absolute !important;
-    top: 0 !important;
-    left: 100% !important;
-    transform: translate(-850%, -50%) !important;
-
-    /* Add any other mobile-specific styles here */
-  }
-  .fa-heart {
-    /* Increase z-index to make the heart icon appear above the badge */
-    position: relative;
-    z-index: 1;
-  }
-  .sign-out-btn {
-    margin-left: 155px;
-  }
-}
 
 // $color: var(--rating-color);
 // body {
